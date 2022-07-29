@@ -43,7 +43,7 @@
         android:theme="@style/Theme.MaterialComponents"
         android:backgroundTint="@color/greyDark"
         android:fontFamily="@font/mulish_extra_bold"
-        android:text="Reveal Dialog"
+        android:text="Show Dialog"
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="17sp"
