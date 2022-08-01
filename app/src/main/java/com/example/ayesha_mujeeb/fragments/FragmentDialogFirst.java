@@ -5,28 +5,16 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import androidx.annotation.NonNull;
 import androidx.fragment.app.DialogFragment;
 
 import com.example.ayesha_mujeeb.R;
 
-public class Dialog2Fragment extends DialogFragment {
+public class FragmentDialogFirst extends DialogFragment {
 
     View view;
 
-    Dialog2Fragment() {
-
-    }
-
-    @Override
-    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-
-        view = inflater.inflate(R.layout.dialog_second_fragment, container, false);
-        return view;
-    }
-
-    static Dialog2Fragment newInstance(String value1, String value2) {
-        Dialog2Fragment f = new Dialog2Fragment();
+    static FragmentDialogFirst newInstance(String value1, String value2) {
+        FragmentDialogFirst f = new FragmentDialogFirst();
         Bundle args = new Bundle();
         args.putString("value1", value1);
         args.putString("value2", value2);
@@ -35,8 +23,13 @@ public class Dialog2Fragment extends DialogFragment {
         return f;
     }
 
-    void sendData() {
 
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        // Inflate the layout for this fragment
+        view = inflater.inflate(R.layout.fragment_dialog_first, container, false);
+        return view;
     }
 
     @Override
@@ -44,4 +37,5 @@ public class Dialog2Fragment extends DialogFragment {
         super.onStart();
         getDialog().getWindow().setLayout(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
     }
+
 }

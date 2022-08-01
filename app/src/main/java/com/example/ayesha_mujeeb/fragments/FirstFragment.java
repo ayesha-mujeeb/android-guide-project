@@ -47,7 +47,7 @@ public class FirstFragment extends Fragment implements View.OnClickListener {
         }
         ft.addToBackStack(null);
 
-        Dialog1Fragment newFragment = Dialog1Fragment.newInstance("Ayesha", "Mujeeb");
+        FragmentDialogFirst newFragment = FragmentDialogFirst.newInstance("Ayesha", "Mujeeb");
         newFragment.show(ft, "dialog");
     }
 

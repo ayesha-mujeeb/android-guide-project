@@ -10,8 +10,20 @@
         <entry key="..\:/Users/ayesha.mujeeb/AndroidStudioProjects/FragmentsPractice/app/src/main/res/layout/dialog_second_fragment.xml" value="0.365625" />
         <entry key="..\:/Users/ayesha.mujeeb/AndroidStudioProjects/FragmentsPractice/app/src/main/res/layout/fragment_first.xml" value="0.25" />
         <entry key="..\:/Users/ayesha.mujeeb/AndroidStudioProjects/FragmentsPractice/app/src/main/res/layout/fragment_second.xml" value="0.25" />
-        <entry key="..\:/Users/ayesha.mujeeb/AndroidStudioProjects/MyProject/app/src/main/res/layout/fragment_first.xml" value="0.1" />
+        <entry key="..\:/Users/ayesha.mujeeb/AndroidStudioProjects/MyProject/app/src/main/res/drawable/divider.xml" value="0.2485" />
+        <entry key="..\:/Users/ayesha.mujeeb/AndroidStudioProjects/MyProject/app/src/main/res/drawable/divider_second.xml" value="0.2485" />
+        <entry key="..\:/Users/ayesha.mujeeb/AndroidStudioProjects/MyProject/app/src/main/res/drawable/ic_hello_pana.xml" value="0.1645" />
+        <entry key="..\:/Users/ayesha.mujeeb/AndroidStudioProjects/MyProject/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/ayesha.mujeeb/AndroidStudioProjects/MyProject/app/src/main/res/layout/activity_main_copy.xml" value="0.42916666666666664" />
+        <entry key="..\:/Users/ayesha.mujeeb/AndroidStudioProjects/MyProject/app/src/main/res/layout/activity_new.xml" value="0.33" />
+        <entry key="..\:/Users/ayesha.mujeeb/AndroidStudioProjects/MyProject/app/src/main/res/layout/activity_recycler_view.xml" value="0.428125" />
+        <entry key="..\:/Users/ayesha.mujeeb/AndroidStudioProjects/MyProject/app/src/main/res/layout/activity_second.xml" value="0.1" />
+        <entry key="..\:/Users/ayesha.mujeeb/AndroidStudioProjects/MyProject/app/src/main/res/layout/dialog_first_fragment.xml" value="0.42916666666666664" />
+        <entry key="..\:/Users/ayesha.mujeeb/AndroidStudioProjects/MyProject/app/src/main/res/layout/fragment_dialog_second.xml" value="0.1078125" />
+        <entry key="..\:/Users/ayesha.mujeeb/AndroidStudioProjects/MyProject/app/src/main/res/layout/fragment_first.xml" value="0.25" />
         <entry key="..\:/Users/ayesha.mujeeb/AndroidStudioProjects/MyProject/app/src/main/res/layout/fragment_second.xml" value="0.1" />
+        <entry key="..\:/Users/ayesha.mujeeb/AndroidStudioProjects/MyProject/app/src/main/res/layout/fragment_shared_preferences.xml" value="0.25" />
+        <entry key="..\:/Users/ayesha.mujeeb/AndroidStudioProjects/MyProject/app/src/main/res/layout/fragment_tab.xml" value="0.22" />
       </map>
     </option>
   </component>

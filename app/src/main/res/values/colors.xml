@@ -4,10 +4,6 @@
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
     <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
-    <color name="torquise">#00CC96</color>
     <color name="greenLite">#d8f3dc</color>
     <color name="grey">#7A7D80</color>
     <color name="greyLite">#D2D5DBF0</color>
@@ -15,4 +11,12 @@
     <color name="blackLite">#101010</color>
     <color name="yellowLite">#FDF2D6</color>
     <color name="redLite">#F96262</color>
+    <color name="NavyBlue">#1a1e39</color>
+    <color name="coral">#ff725e</color>
+    <color name="coral_200">#ff8e7e</color>
+    <color name="torquise">#00CC96</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="greyishBlue">#64768e</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
 </resources>

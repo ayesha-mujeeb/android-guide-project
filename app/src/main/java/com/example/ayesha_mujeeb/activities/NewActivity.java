@@ -13,7 +13,7 @@ import com.example.ayesha_mujeeb.R;
 import com.example.ayesha_mujeeb.fragments.FirstFragment;
 import com.example.ayesha_mujeeb.fragments.SecondFragment;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class NewActivity extends AppCompatActivity implements View.OnClickListener {
 
 
     Button btnFragment1, btnFragment2;
@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_new);
 
         btnFragment1 = findViewById(R.id.btnFragment1);
         btnFragment2 = findViewById(R.id.btnFragment2);
@@ -51,7 +51,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
         fragmentTransaction.replace(R.id.mainFrameLayout, fragment);
         fragmentTransaction.commit();
-
     }
 
     @Override
