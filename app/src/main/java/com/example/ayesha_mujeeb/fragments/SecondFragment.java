@@ -1,4 +1,4 @@
-package com.example.ayesha_mujeeb;
+package com.example.ayesha_mujeeb.fragments;
 
 import android.os.Bundle;
 
@@ -9,6 +9,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+
+import com.example.ayesha_mujeeb.R;
 
 public class SecondFragment extends Fragment implements View.OnClickListener{
 

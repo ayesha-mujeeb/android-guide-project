@@ -1,10 +1,12 @@
-package com.example.ayesha_mujeeb;
+package com.example.ayesha_mujeeb.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
+
+import com.example.ayesha_mujeeb.R;
 
 public class SecondActivity extends AppCompatActivity {
 

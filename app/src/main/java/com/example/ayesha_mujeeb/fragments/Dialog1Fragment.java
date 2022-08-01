@@ -1,4 +1,4 @@
-package com.example.ayesha_mujeeb;
+package com.example.ayesha_mujeeb.fragments;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -6,6 +6,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.fragment.app.DialogFragment;
+
+import com.example.ayesha_mujeeb.R;
 
 public class Dialog1Fragment extends DialogFragment {
 

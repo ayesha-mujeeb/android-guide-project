@@ -1,4 +1,4 @@
-package com.example.ayesha_mujeeb;
+package com.example.ayesha_mujeeb.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
@@ -8,6 +8,10 @@ import androidx.fragment.app.FragmentTransaction;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import com.example.ayesha_mujeeb.R;
+import com.example.ayesha_mujeeb.fragments.FirstFragment;
+import com.example.ayesha_mujeeb.fragments.SecondFragment;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 

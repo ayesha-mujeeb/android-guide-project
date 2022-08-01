@@ -1,4 +1,4 @@
-package com.example.ayesha_mujeeb;
+package com.example.ayesha_mujeeb.fragments;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,6 +11,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+
+import com.example.ayesha_mujeeb.R;
+import com.example.ayesha_mujeeb.activities.SecondActivity;
 
 public class FirstFragment extends Fragment implements View.OnClickListener {
 

@@ -14,10 +14,10 @@
         android:theme="@style/Theme.FragmentsPractice"
         tools:targetApi="31">
         <activity
-            android:name="com.example.ayesha_mujeeb.SecondActivity"
+            android:name="com.example.ayesha_mujeeb.activities.SecondActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.ayesha_mujeeb.MainActivity"
+            android:name="com.example.ayesha_mujeeb.activities.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

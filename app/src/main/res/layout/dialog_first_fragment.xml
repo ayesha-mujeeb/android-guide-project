@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/greenLite"
     android:id="@+id/dialog_second_fragment"
-    tools:context=".FirstFragment">
+    tools:context=".fragments.FirstFragment">
 
 
     <ImageView
