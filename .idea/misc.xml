@@ -10,10 +10,20 @@
         <entry key="..\:/Users/ayesha.mujeeb/AndroidStudioProjects/FragmentsPractice/app/src/main/res/layout/dialog_second_fragment.xml" value="0.365625" />
         <entry key="..\:/Users/ayesha.mujeeb/AndroidStudioProjects/FragmentsPractice/app/src/main/res/layout/fragment_first.xml" value="0.25" />
         <entry key="..\:/Users/ayesha.mujeeb/AndroidStudioProjects/FragmentsPractice/app/src/main/res/layout/fragment_second.xml" value="0.25" />
+        <entry key="..\:/Users/ayesha.mujeeb/AndroidStudioProjects/MyProject/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1915" />
         <entry key="..\:/Users/ayesha.mujeeb/AndroidStudioProjects/MyProject/app/src/main/res/drawable/divider.xml" value="0.2485" />
         <entry key="..\:/Users/ayesha.mujeeb/AndroidStudioProjects/MyProject/app/src/main/res/drawable/divider_second.xml" value="0.2485" />
         <entry key="..\:/Users/ayesha.mujeeb/AndroidStudioProjects/MyProject/app/src/main/res/drawable/ic_hello_pana.xml" value="0.1645" />
-        <entry key="..\:/Users/ayesha.mujeeb/AndroidStudioProjects/MyProject/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/ayesha.mujeeb/AndroidStudioProjects/MyProject/app/src/main/res/drawable/ic_icons8_skype.xml" value="0.1915" />
+        <entry key="..\:/Users/ayesha.mujeeb/AndroidStudioProjects/MyProject/app/src/main/res/drawable/ic_icons8_snapchat.xml" value="0.1915" />
+        <entry key="..\:/Users/ayesha.mujeeb/AndroidStudioProjects/MyProject/app/src/main/res/drawable/ic_illustrationemail.xml" value="0.1915" />
+        <entry key="..\:/Users/ayesha.mujeeb/AndroidStudioProjects/MyProject/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1915" />
+        <entry key="..\:/Users/ayesha.mujeeb/AndroidStudioProjects/MyProject/app/src/main/res/drawable/ic_snapchat_logo_svgrepo_com.xml" value="0.1915" />
+        <entry key="..\:/Users/ayesha.mujeeb/AndroidStudioProjects/MyProject/app/src/main/res/drawable/ic_snapchat_logo_wine.xml" value="0.1915" />
+        <entry key="..\:/Users/ayesha.mujeeb/AndroidStudioProjects/MyProject/app/src/main/res/drawable/ic_twofactorauthentication.xml" value="0.1915" />
+        <entry key="..\:/Users/ayesha.mujeeb/AndroidStudioProjects/MyProject/app/src/main/res/drawable/ic_welcome_amico.xml" value="0.1915" />
+        <entry key="..\:/Users/ayesha.mujeeb/AndroidStudioProjects/MyProject/app/src/main/res/drawable/rounded_button.xml" value="0.1915" />
+        <entry key="..\:/Users/ayesha.mujeeb/AndroidStudioProjects/MyProject/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/ayesha.mujeeb/AndroidStudioProjects/MyProject/app/src/main/res/layout/activity_main_copy.xml" value="0.42916666666666664" />
         <entry key="..\:/Users/ayesha.mujeeb/AndroidStudioProjects/MyProject/app/src/main/res/layout/activity_new.xml" value="0.33" />
         <entry key="..\:/Users/ayesha.mujeeb/AndroidStudioProjects/MyProject/app/src/main/res/layout/activity_recycler_view.xml" value="0.428125" />
@@ -21,9 +31,11 @@
         <entry key="..\:/Users/ayesha.mujeeb/AndroidStudioProjects/MyProject/app/src/main/res/layout/dialog_first_fragment.xml" value="0.42916666666666664" />
         <entry key="..\:/Users/ayesha.mujeeb/AndroidStudioProjects/MyProject/app/src/main/res/layout/fragment_dialog_second.xml" value="0.1078125" />
         <entry key="..\:/Users/ayesha.mujeeb/AndroidStudioProjects/MyProject/app/src/main/res/layout/fragment_first.xml" value="0.25" />
+        <entry key="..\:/Users/ayesha.mujeeb/AndroidStudioProjects/MyProject/app/src/main/res/layout/fragment_recycler_view.xml" value="0.25" />
         <entry key="..\:/Users/ayesha.mujeeb/AndroidStudioProjects/MyProject/app/src/main/res/layout/fragment_second.xml" value="0.1" />
         <entry key="..\:/Users/ayesha.mujeeb/AndroidStudioProjects/MyProject/app/src/main/res/layout/fragment_shared_preferences.xml" value="0.25" />
         <entry key="..\:/Users/ayesha.mujeeb/AndroidStudioProjects/MyProject/app/src/main/res/layout/fragment_tab.xml" value="0.22" />
+        <entry key="..\:/Users/ayesha.mujeeb/AndroidStudioProjects/MyProject/app/src/main/res/layout/recycler_view_design.xml" value="0.25" />
       </map>
     </option>
   </component>

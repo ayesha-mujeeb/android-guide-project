@@ -19,4 +19,6 @@
     <color name="greyishBlue">#64768e</color>
     <color name="white">#FFFFFFFF</color>
     <color name="black">#FF000000</color>
+    <color name="bluish_black">#1c1c1e</color>
+    <color name="royal_blue">#0a82f9</color>
 </resources>
