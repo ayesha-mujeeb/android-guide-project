@@ -1,28 +1,32 @@
-package com.example.ayesha_mujeeb;
+package com.example.ayesha_mujeeb.adapters;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Adapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.ayesha_mujeeb.R;
+import com.example.ayesha_mujeeb.models.ModelRecyclerViewVerticalFragment;
+
 import java.util.List;
 
-public class AdapterRecyclerView extends RecyclerView.Adapter<AdapterRecyclerView.ViewHolder>{
+public class AdapterRecyclerViewVerticalFragment extends RecyclerView.Adapter<AdapterRecyclerViewVerticalFragment.ViewHolder> {
 
-    private List<ModelRecyclerView> appList;
+    private List<ModelRecyclerViewVerticalFragment> appList;
     View view;
 
-    public AdapterRecyclerView (List<ModelRecyclerView> appList) { this.appList = appList; }
+    public AdapterRecyclerViewVerticalFragment(List<ModelRecyclerViewVerticalFragment> appList) {
+        this.appList = appList;
+    }
 
     @NonNull
     @Override
-    public AdapterRecyclerView.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        view = LayoutInflater.from(parent.getContext()).inflate(R.layout.recycler_view_design, parent, false);
+    public AdapterRecyclerViewVerticalFragment.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        view = LayoutInflater.from(parent.getContext()).inflate(R.layout.fragment_recycler_view_vertical_design, parent, false);
         return new ViewHolder(view);
     }
 
@@ -32,20 +36,25 @@ public class AdapterRecyclerView extends RecyclerView.Adapter<AdapterRecyclerVie
         String name = appList.get(position).getTextViewAppName();
         String desc = appList.get(position).getTextViewAppDesc();
 
-        holder.setData(resource, name, desc);
+        holder.imageViewAppIcon.setImageResource(resource);
+        holder.textViewAppName.setText(name);
+        holder.textViewAppDesc.setText(desc);
     }
 
     @Override
     public int getItemCount() {
-        return appList.size();
+        if (appList.size() == 0) {
+            return 1;
+        } else {
+            return appList.size();
+        }
     }
 
-    public class ViewHolder extends RecyclerView.ViewHolder{
+    public class ViewHolder extends RecyclerView.ViewHolder {
 
         private ImageView imageViewAppIcon;
         private TextView textViewAppName;
         private TextView textViewAppDesc;
-//        private TextView divider;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -53,13 +62,6 @@ public class AdapterRecyclerView extends RecyclerView.Adapter<AdapterRecyclerVie
             imageViewAppIcon = itemView.findViewById(R.id.imageViewAppIcon);
             textViewAppName = itemView.findViewById(R.id.textViewAppName);
             textViewAppDesc = itemView.findViewById(R.id.textViewAppDesc);
-
-        }
-
-        public void setData(int resource, String name, String desc) {
-            imageViewAppIcon.setImageResource(resource);
-            textViewAppName.setText(name);
-            textViewAppDesc.setText(desc);
 
         }
     }

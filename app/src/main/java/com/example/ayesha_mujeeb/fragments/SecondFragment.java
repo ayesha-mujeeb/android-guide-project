@@ -36,7 +36,7 @@ public class SecondFragment extends Fragment implements View.OnClickListener{
         }
         ft.addToBackStack(null);
 
-        FragmentDialogSecond newFragment = FragmentDialogSecond.newInstance("Alish", "Reem");
+        DialogSecondFragment newFragment = DialogSecondFragment.newInstance("Alish", "Reem");
         newFragment.show(ft, "dialog");
     }
 

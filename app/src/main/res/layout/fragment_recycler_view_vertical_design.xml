@@ -2,21 +2,21 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/white">
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="wrap_content"
         android:background="@color/black">
 
-        <androidx.cardview.widget.CardView
+        <com.google.android.material.card.MaterialCardView
             android:id="@+id/cardViewAppIcon"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
             android:layout_marginLeft="20dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="12dp"
             app:cardBackgroundColor="@color/white"
             app:cardCornerRadius="18dp">
 
@@ -25,7 +25,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_snapchat_logo_svgrepo_com" />
-        </androidx.cardview.widget.CardView>
+        </com.google.android.material.card.MaterialCardView>
 
 
         <TextView
@@ -36,8 +36,8 @@
             android:layout_marginTop="24dp"
             android:layout_toRightOf="@id/cardViewAppIcon"
             android:fontFamily="@font/mulish_bold"
-            android:textColor="@color/white"
             android:text="Snapchat"
+            android:textColor="@color/white"
             android:textSize="20sp"
             android:textStyle="bold"
             tools:ignore="NotSibling" />
@@ -50,8 +50,8 @@
             android:layout_marginTop="53dp"
             android:layout_toRightOf="@id/cardViewAppIcon"
             android:fontFamily="@font/mulish_regular"
-            android:textColor="@color/grey"
             android:text="Capture the moment"
+            android:textColor="@color/grey"
             android:textSize="14sp"
             android:textStyle="bold"
             tools:ignore="NotSibling" />
@@ -60,9 +60,9 @@
             style="@style/Widget.MaterialComponents.Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="45dp"
+            android:layout_alignParentEnd="true"
             android:layout_marginTop="25dp"
-            android:layout_toRightOf="@+id/textViewAppDesc"
+            android:layout_marginRight="20dp"
             android:backgroundTint="@color/bluish_black"
             android:text="Get"
             android:textAllCaps="true"

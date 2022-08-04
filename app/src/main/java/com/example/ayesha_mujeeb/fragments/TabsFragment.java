@@ -14,7 +14,7 @@ import android.widget.Button;
 import com.example.ayesha_mujeeb.R;
 
 
-public class FragmentTab extends Fragment implements View.OnClickListener {
+public class TabsFragment extends Fragment implements View.OnClickListener {
 
 
     View view;

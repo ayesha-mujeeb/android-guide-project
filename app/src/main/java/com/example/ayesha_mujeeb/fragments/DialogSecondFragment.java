@@ -10,11 +10,11 @@ import androidx.fragment.app.DialogFragment;
 
 import com.example.ayesha_mujeeb.R;
 
-public class FragmentDialogSecond extends DialogFragment {
+public class DialogSecondFragment extends DialogFragment {
 
     View view;
 
-    public FragmentDialogSecond() {
+    public DialogSecondFragment() {
 
     }
 
@@ -25,8 +25,8 @@ public class FragmentDialogSecond extends DialogFragment {
         return view;
     }
 
-    public static FragmentDialogSecond newInstance(String value1, String value2) {
-        FragmentDialogSecond f = new FragmentDialogSecond();
+    public static DialogSecondFragment newInstance(String value1, String value2) {
+        DialogSecondFragment f = new DialogSecondFragment();
         Bundle args = new Bundle();
         args.putString("value1", value1);
         args.putString("value2", value2);

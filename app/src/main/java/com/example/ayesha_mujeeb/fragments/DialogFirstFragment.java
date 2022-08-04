@@ -9,12 +9,12 @@ import androidx.fragment.app.DialogFragment;
 
 import com.example.ayesha_mujeeb.R;
 
-public class FragmentDialogFirst extends DialogFragment {
+public class DialogFirstFragment extends DialogFragment {
 
     View view;
 
-    static FragmentDialogFirst newInstance(String value1, String value2) {
-        FragmentDialogFirst f = new FragmentDialogFirst();
+    static DialogFirstFragment newInstance(String value1, String value2) {
+        DialogFirstFragment f = new DialogFirstFragment();
         Bundle args = new Bundle();
         args.putString("value1", value1);
         args.putString("value2", value2);

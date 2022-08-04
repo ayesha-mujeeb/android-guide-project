@@ -11,35 +11,42 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import com.example.ayesha_mujeeb.R;
-import com.example.ayesha_mujeeb.fragments.FragmentDialogSecond;
-import com.example.ayesha_mujeeb.fragments.FragmentSharedPreferences;
-import com.example.ayesha_mujeeb.fragments.FragmentTab;
+import com.example.ayesha_mujeeb.fragments.DialogSecondFragment;
+import com.example.ayesha_mujeeb.fragments.RecyclerViewHorizontalFragment;
+import com.example.ayesha_mujeeb.fragments.RecyclerViewVerticalFragment;
+import com.example.ayesha_mujeeb.fragments.SharedPreferencesFragment;
+import com.example.ayesha_mujeeb.fragments.TabsFragment;
 
-public class ActivityMain extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    Button btnMainFragment, btnMainActivity, btnMainFragDialog, btnMainSharedPref;
-    String str1, str2, str3;
+    Button btnMainFragment, btnMainActivity, btnMainFragDialog, btnMainSharedPref, btnMainRecyclerView, btnMainLayout;
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btnMainFragment = findViewById(R.id.ButtonFragmentMain);
+        btnMainFragment = (Button) findViewById(R.id.ButtonFragmentMain);
         btnMainFragment.setOnClickListener(this);
 
-        btnMainActivity = findViewById(R.id.ButtonActivityMain);
+        btnMainActivity = (Button) findViewById(R.id.ButtonActivityMain);
         btnMainActivity.setOnClickListener(this);
 
-        btnMainFragDialog = findViewById(R.id.ButtonDialogFragMain);
+        btnMainFragDialog = (Button) findViewById(R.id.ButtonDialogFragMain);
         btnMainFragDialog.setOnClickListener(this);
 
-        btnMainSharedPref = findViewById(R.id.ButtonPreferMain);
+        btnMainSharedPref = (Button) findViewById(R.id.ButtonPreferMain);
         btnMainSharedPref.setOnClickListener(this);
 
-        str1 = "String 1";
-        str2 = str1;
-        str3 = str2 + " new part";
+        btnMainRecyclerView = (Button) findViewById(R.id.ButtonRecyclerMain);
+        btnMainRecyclerView.setOnClickListener(this);
+
+        btnMainLayout = (Button) findViewById(R.id.ButtonLayoutMain);
+        btnMainLayout.setOnClickListener(this);
+
     }
 
     private void replaceFragment(Fragment fragment) {
@@ -52,7 +59,7 @@ public class ActivityMain extends AppCompatActivity implements View.OnClickListe
     }
 
     public void startSecondActivity() {
-        Intent intent = new Intent(ActivityMain.this, SecondActivity.class);
+        Intent intent = new Intent(MainActivity.this, SecondActivity.class);
 //        EditText editText = (EditText) findViewById(R.id.editTextTextPersonName);
 //        String message = editText.getText().toString();
         intent.putExtra("text", "This message is from Main Activity");
@@ -67,15 +74,16 @@ public class ActivityMain extends AppCompatActivity implements View.OnClickListe
         }
         ft.addToBackStack(null);
 
-        FragmentDialogSecond newFragment = FragmentDialogSecond.newInstance("new", "name");
+        DialogSecondFragment newFragment = DialogSecondFragment.newInstance("new", "name");
         newFragment.show(ft, "dialog");
     }
+
 
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.ButtonFragmentMain:
-                replaceFragment(new FragmentTab());
+                replaceFragment(new TabsFragment());
                 break;
             case R.id.ButtonActivityMain:
                 startSecondActivity();
@@ -84,7 +92,14 @@ public class ActivityMain extends AppCompatActivity implements View.OnClickListe
                 showDialog();
                 break;
             case R.id.ButtonPreferMain:
-                replaceFragment(new FragmentSharedPreferences());
+                replaceFragment(new SharedPreferencesFragment());
+                break;
+            case R.id.ButtonRecyclerMain:
+                replaceFragment(new RecyclerViewVerticalFragment());
+                break;
+            case R.id.ButtonLayoutMain:
+                replaceFragment(new RecyclerViewHorizontalFragment());
+                break;
         }
     }
 }

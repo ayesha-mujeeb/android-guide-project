@@ -18,7 +18,7 @@ import android.widget.Toast;
 import com.example.ayesha_mujeeb.R;
 
 
-public class FragmentSharedPreferences extends Fragment implements View.OnClickListener {
+public class SharedPreferencesFragment extends Fragment implements View.OnClickListener {
 
     View view;
     Button btnSaveSharedPref, btnSendSharedPref;

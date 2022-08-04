@@ -21,4 +21,6 @@
     <color name="black">#FF000000</color>
     <color name="bluish_black">#1c1c1e</color>
     <color name="royal_blue">#0a82f9</color>
+    <color name="grey_less_opaque">#B07C8186</color>
+    <color name="white_lite">#8DCAD0D3</color>
 </resources>
